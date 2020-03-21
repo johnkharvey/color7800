@@ -21,7 +21,7 @@ In the 19 years since the release of this demo, the scene of Atari 7800 programm
 We now have the ability to sign our own cartridges, use new exciting tutorials, and even program in BASIC.
 Still, I think it's worth heading back through the annals of time on occasion to remember the past.
 
-The only place that I can remember that I released the RPM for this code was here:
+The only place that I can remember that I released the binaries for this code was here:
 https://atariage.com/forums/topic/153178-some-of-the-demos-i-was-developing-6-years-ago/?tab=comments#comment-1875410
 
 I decided it would be worth creating a github mirror that contains the source code.
