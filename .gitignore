@@ -1,0 +1,10 @@
+bin/
+out/
+
+# Mac garbage
+.DS_Store
+*.swp
+
+# a7800 stuff?
+ui.ini
+plugin.ini
