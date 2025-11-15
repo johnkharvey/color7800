@@ -94,7 +94,22 @@ ${A7800}:	${WGET} ${TAR}
 	mv a7800.ini ~/.a7800
 	#rm -f ui.ini plugin.ini
 	# We need the 7800.rom file (found here: https://atariage.com/forums/topic/268458-a7800-the-atari-7800-emulator/)
-	wget -O bin/a7800/Additional_Files_a7800_v0188-01.zip https://atariage.com/forums/applications/core/interface/file/attachment.php?id=521608
+	# -- https://forums.atariage.com/index.php?app=core&module=attach&section=attach&attach_rel_module=post&attach_id=521608
+	# Contents:
+	# -- ui.ini
+	# -- cfg/a7800.cfg
+	# -- cfg/a7800p.cfg
+	# -- cfg/default.cfg
+	# -- cfg/___empty.cfg
+	# -- roms/a7800.zip
+	# -- roms/a7800p.zip
+	# -- roms/highscre.zip
+	# -- roms/hsc.zip
+	# -- roms/xm.zip
+	# -- software/ (empty)
+	# -- mame.ini
+	# -- hash/a7800.xml
+	wget --user-agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" --secure-protocol=TLSv1_2 -O bin/a7800/Additional_Files_a7800_v0188-01.zip "https://forums.atariage.com/index.php?app=core&module=attach&section=attach&attach_rel_module=post&attach_id=521608"
 	cd bin/a7800 && unzip -o Additional_Files_a7800_v0188-01.zip
 	rm -f bin/a7800/Additional_Files_a7800_v0188-01.zip
 
