@@ -212,7 +212,7 @@ STR_LEN_{2} = . - .start
 	dc.b	$00,$0C,$7C,$CC,$7C,$CC,$F0,$CC
 	dc.b	$76,$30,$0C,$6C,$30,$FE,$CC,$CC
 	dc.b	$66,$CC,$76,$C0,$30,$CC,$CC,$D6
-	dc.b	$5C,$CC,$98,$E0,$00,$1C,$00,$6C
+	dc.b	$6C,$CC,$98,$E0,$00,$1C,$00,$6C
  
 	ALIGN	256
 ; graphics data for 128 characters - line 3
